@@ -1,5 +1,5 @@
 #include "area.h"
-Area::Area(QWidget *parent):QWidget(parent)
+Area::Area(QWidget *parent) : QWidget(parent)
 {
     setFixedSize(QSize(300,200));
     myline=new MyLine(80,100,50);

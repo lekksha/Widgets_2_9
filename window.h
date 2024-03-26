@@ -1,7 +1,9 @@
 #ifndef window_h
 #define window_h
+#include <QPushButton>
 #include <QtGui>
 #include "area.h"
+
 class Window : public QWidget
 {
 protected:
