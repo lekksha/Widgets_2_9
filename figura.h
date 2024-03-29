@@ -12,6 +12,8 @@ public:
         x(X), y(Y), halflen(Halflen){}
     void move(float Alpha, QPainter *Painter);
 };
+
+
 class MyLine : public Figura
 {
 protected:
@@ -19,6 +21,8 @@ protected:
 public:
     MyLine(int x,int y, int halflen) : Figura(x, y, halflen) {}
 };
+
+
 class MyRect : public Figura
 {
 protected:

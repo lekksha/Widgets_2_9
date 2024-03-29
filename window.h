@@ -7,7 +7,7 @@
 class Window : public QWidget
 {
 protected:
-    QTextCodec *codec;
+    //QTextCodec *codec;
     Area * area; // область отображения рисунка
     QPushButton * btn;
 public:
